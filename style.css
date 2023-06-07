@@ -587,7 +587,7 @@ form input {
   }
   .sign-up-btn {
     top: -43px;
-    right: -462px;
+    right: -292px;
   }
   .carousel-caption h1 {
     font-size: 25px;
@@ -618,6 +618,10 @@ form input {
   .carousel-caption h1 {
     font-size: 35px;
     line-height: 1.2;
+  }
+  .sign-up-btn {
+    top: -43px;
+    right: -462px;
   }
 }
 
