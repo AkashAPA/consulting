@@ -339,6 +339,7 @@ nav {
   margin-bottom: 20px;
   outline: 1px solid #cfcfcf;
 }
+
 .count-box h1 {
   text-align: center;
 }
@@ -588,6 +589,27 @@ form input {
     top: -43px;
     right: -462px;
   }
+  .carousel-caption h1 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+  .carousel-caption{
+    width: 100%;
+  }
+  .box-3{
+    margin-top: -70px !important;
+  }
+  #box-1{
+    margin-top: -50px !important;
+  }
+  #caption{
+    margin: 0px !important;
+    margin-top: 30px !important;
+  }
+  #caption h1{
+    font-size: 40px !important;
+  }
+
 }
 
 /* *********** | Carousel For Mobile Screen |************  */
