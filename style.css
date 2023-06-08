@@ -283,6 +283,10 @@ nav {
 .f-c-s-caption b {
   width: 20px !important;
 }
+#width-change {
+  width: 429px;
+  margin-top: -45px;
+}
 
 /* *********** | Review |************  */
 
@@ -593,23 +597,26 @@ form input {
     font-size: 25px;
     line-height: 1.2;
   }
-  .carousel-caption{
+  .carousel-caption {
     width: 100%;
   }
-  .box-3{
+  .box-3 {
     margin-top: -70px !important;
   }
-  #box-1{
+  #box-1 {
     margin-top: -50px !important;
   }
-  #caption{
+  #caption {
     margin: 0px !important;
     margin-top: 30px !important;
   }
-  #caption h1{
+  #caption h1 {
     font-size: 40px !important;
   }
-
+  #width-change {
+    width: 100%;
+    margin-top: 0px;
+  }
 }
 
 /* *********** | Carousel For Mobile Screen |************  */
@@ -624,4 +631,3 @@ form input {
     right: -462px;
   }
 }
-
