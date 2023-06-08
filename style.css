@@ -538,7 +538,7 @@ form input {
 }
 /* *********** | For Mobile Screen |************  */
 
-@media screen and (max-width: 991.2px) {
+@media screen and (max-width: 480px) {
   .ftco-navbar-light {
     background-color: #081637 !important;
     z-index: 1;
