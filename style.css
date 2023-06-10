@@ -163,10 +163,12 @@ nav {
   display: flex;
   justify-content: center;
 }
-.a-card-header i {
-  color: #eb566c;
-  font-size: 65px;
+.a-card-header img {
+  /* color: #eb566c; */
+  /* font-size: 65px; */
   margin-bottom: 30px;
+  height: 60px;
+  width: 60px;
 }
 .o-t-services {
   color: #eb566c;
@@ -184,8 +186,43 @@ nav {
   padding: 30px 22px !important;
   transition: all 0.4s ease-out 0s !important;
   position: relative !important;
-  background: #ffff !important;
+  background: #ff2143;
+  cursor: pointer;
   border-radius: 0px !important;
+  transition: color 0.4s linear;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.card :hover .a-card-header img {
+  color: white !important;
+  z-index: 1;
+  filter: contrast(0%);
+  filter: brightness(100);
+}
+#card:hover {
+  color: #fff;
+}
+#card:hover::before {
+  transform: scaleY(1);
+  z-index: -1;
+}
+#card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 101%;
+  height: 101%;
+  background: #ff2143;
+  z-index: 1;
+  transition: transform 0.5s;
+  transition-timing-function: ease;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+  transform: scaleY(0);
+  border-radius: 0;
 }
 /* *********** | our-best-Services |************  */
 
